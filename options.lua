@@ -17,6 +17,11 @@ return {
     icons_enabled = true, -- disable icons in the UI (disable if no nerd font is available, requires :PackerSync after changing)
     ui_notifications_enabled = true, -- disable notifications when toggling UI elements
     resession_enabled = false, -- enable experimental resession.nvim session management (will be default in AstroNvim v4)
+    sonokai_style = "default",
+    sonokai_better_performance = 1,
+    sonokai_transparent_background = 2,
+    sonokai_diagnostic_virtual_text = "grey",
+    sonokai_cursor = "auto",
   },
 }
 -- If you need more control, you can use the function()...end notation
